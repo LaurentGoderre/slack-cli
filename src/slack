@@ -35,7 +35,7 @@ while (( "$#" )); do
     --author-icon=*) authoricon=${1/--author-icon=/''} ; shift ;;
     --author-icon*|-ai*) authoricon=${2} ; shift ; shift ;;
     --author-link=*) authorlink=${1/--author-link=/''} ; shift ;;
-    --author-link*|-al*) titlelink=${2} ; shift ; shift ;;
+    --author-link*|-al*) authorlink=${2} ; shift ; shift ;;
     --author=*) author=${1/--author=/''} ; shift ;;
     --author*|-at*) author=${2} ; shift ; shift ;;
     --channels=*) channels=${1/--channels=/''} ; shift ;;
